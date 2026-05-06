@@ -8,6 +8,43 @@
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 
+  <style>
+.mood-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.mood-card {
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  width: 160px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: #2d2d2d;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* 🔥 HOVER EFFECT */
+.mood-card:hover {
+  transform: translateY(-5px);
+  background: #e6dcff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.mood-card h3 {
+  margin: 10px 0 5px;
+}
+
+.mood-card p {
+  font-size: 12px;
+  color: #666;
+}
+</style>
 </head>
 
 <body style="background-color:#f5f0ff; font-family:'Lora', serif; text-align:center;">
@@ -33,46 +70,38 @@
   <br>
 
   <!-- 🧠 MOOD SECTION -->
-
-
 <h2>How are you feeling today? 💭</h2>
 
-<div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
+<div class="mood-container">
 
-  <a href="#sad" style="text-decoration:none;">
-    <div style="
-      background:#ffffff;
-      padding:15px 25px;
-      border-radius:12px;
-      box-shadow:0 4px 10px rgba(0,0,0,0.1);
-      width:150px;
-    ">
-      💔 <br> Sad
-    </div>
+  <a href="#sad" class="mood-card">
+    💔
+    <h3>Sad</h3>
+    <p>Feeling low and heavy?</p>
   </a>
 
-  <a href="#angry" style="text-decoration:none;">
-    <div style="
-      background:#ffffff;
-      padding:15px 25px;
-      border-radius:12px;
-      box-shadow:0 4px 10px rgba(0,0,0,0.1);
-      width:150px;
-    ">
-      😡 <br> Angry
-    </div>
+  <a href="#angry" class="mood-card">
+    😡
+    <h3>Angry</h3>
+    <p>Too much inside?</p>
   </a>
 
-  <a href="#overthinking" style="text-decoration:none;">
-    <div style="
-      background:#ffffff;
-      padding:15px 25px;
-      border-radius:12px;
-      box-shadow:0 4px 10px rgba(0,0,0,0.1);
-      width:150px;
-    ">
-      🧠 <br> Overthinking
-    </div>
+  <a href="#overthinking" class="mood-card">
+    🧠
+    <h3>Overthinking</h3>
+    <p>Mind won’t stop?</p>
+  </a>
+
+  <a href="#tired" class="mood-card">
+    😴
+    <h3>Tired</h3>
+    <p>Exhausted mentally?</p>
+  </a>
+
+  <a href="#demotivated" class="mood-card">
+    🥀
+    <h3>Demotivated</h3>
+    <p>No energy to try?</p>
   </a>
 
 </div>
