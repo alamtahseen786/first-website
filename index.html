@@ -133,15 +133,62 @@ Choose the feeling that’s been hardest to carry lately.
   <br>
 
   <!-- ✍️ WRITE SECTION -->
+   <style><style>
+
+.textbox-container {
+  margin-top: 50px;
+}
+
+textarea {
+
+  width: 70%;
+  max-width: 700px;
+  height: 220px;
+
+  padding: 20px;
+
+  border: none;
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.7);
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+  font-size: 16px;
+  font-family: 'Lora', serif;
+
+  resize: none;
+
+  outline: none;
+
+  transition: 0.3s;
+}
+
+/* ✨ when clicked */
+textarea:focus {
+
+  background: white;
+
+  box-shadow: 0 10px 25px rgba(150,100,255,0.3);
+
+}
+
+</style></style>
   <h2>Let it out 💜</h2>
   <p>This space is safe. Nothing will be saved.</p>
 
+  <div class="textbox-container">
+
+  <h2>Let it out 💜</h2>
+
+  <p>
+    This space is safe. Nothing will be saved.
+  </p>
+
   <textarea 
-    rows="10" 
-    cols="50"
     placeholder="Write everything you feel..."
-    style="padding:12px; border-radius:10px; border:1px solid #ddd;">
-  </textarea>
+  ></textarea>
+</div>
 
   <br><br>
 
