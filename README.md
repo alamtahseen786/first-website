@@ -1,4 +1,4 @@
-# 🌫️ Vanished — Let It Go
+# 💜 Vanished — Let It Go
 
 Vanished is a calming emotional wellness website created using HTML and CSS.  
 The purpose of this project is to give users a peaceful space where they can anonymously express their thoughts, emotions, worries, and feelings without fear of being judged.
