@@ -20,7 +20,7 @@ Users can:
 - write what they feel
 - mentally “release” their worries
 
->Nothing is saved, making the experience feel safe and temporary.
+>"Nothing is saved, making the experience feel safe and temporary."
 
 ---
 
