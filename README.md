@@ -7,7 +7,7 @@ Instead of creating a basic beginner project, this website focuses on emotional 
 
 ---
 
-# 💜 Project Idea
+# Project Idea
 
 Sometimes people carry emotions they never say out loud.
 
